@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    font-size: 19px; 
+    font-size: 19px;
 }
 header img {
     width: 6%;
@@ -48,11 +48,6 @@ header nav a:hover {
     width:  100%;
 }
 
-.conteudo-intro h1 {
-    position: absolute;
-}
-
-
 /* Seção-1 ---> Walmir */
 
 .secao-1 {
@@ -61,7 +56,7 @@ header nav a:hover {
     margin-top: 16%;
 }
 
-.sobreNos{
+#sobreNos{
 
     position: relative;
     width: 100%;
@@ -69,14 +64,14 @@ header nav a:hover {
     
     color: white;
 }
-.sobreNos img {
+#sobreNos img {
 
     width: 100%;
     height: 20%;
     
 }
 
-.sobreNos h2 {
+#sobreNos h2 {
 
     position: absolute;
     top: 20%;
@@ -106,14 +101,14 @@ header nav a:hover {
     
 }
 
-.produtos {
+#produtos {
     width: 100%;
     margin-top: 10%;
 
     text-align: center;
 }
 
-.produtos h2 {
+#produtos h2 {
     margin-bottom: 3%;
 }
 
@@ -156,3 +151,20 @@ header nav a:hover {
 
 
 /* Footer */
+footer {
+    display: flex;
+    background-color: #e9e9e9;
+    align-items: start;
+    width: 100%;
+}
+
+footer img#logo-4cars {
+    width: 10%;
+    
+}
+
+footer img.icone {
+    width: 10%;
+}
+
+
