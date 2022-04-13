@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -51,8 +52,75 @@ header nav a:hover {
     position: absolute;
 }
 
-/* Seção-1 */
 
+/* Seção-1 ---> Walmir */
+
+.secao-1 {
+    width: 100%;
+    height: 50%;
+    margin-top: 16%;
+}
+
+.sobreNos{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    color: white;
+}
+.sobreNos img {
+
+    width: 100%;
+    height: 20%;
+    
+}
+
+.sobreNos h2 {
+
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    
+    font-size: 4em;
+    text-shadow: 4px 5px 6px black;
+   
+    
+}
+
+.caixa-transparente {
+
+    position: absolute;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 40%;
+    padding: 2%;
+
+}
+
+.caixa-transparente p {
+    
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+.produtos {
+    width: 100%;
+    margin-top: 10%;
+
+    text-align: center;
+}
+
+.produtos h2 {
+    margin-bottom: 3%;
+}
+
+
+.frota img {
+    margin-top: 6%;
+}
 
 
 
