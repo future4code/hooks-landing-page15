@@ -106,17 +106,68 @@ header nav a:hover {
     margin-top: 10%;
 
     text-align: center;
+
+   
 }
 
 #produtos h2 {
     margin-bottom: 3%;
+    font-size: 3em;
+    
+}
+
+#produtos p {
+    font-size: 20px;
+}
+
+.frota-carrosel { 
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+    overflow: hidden;
+
+    background: radial-gradient( white, black);
+}
+
+.frota-carrosel ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
 }
 
 
-.frota img {
+.frota-carrosel li {
     margin-top: 6%;
+    position: relative;
+    animation: slide 15s infinite ease-out;
+    margin-left: 10vw;
 }
 
+
+@keyframes slide {
+
+    0%{left: 0%;}
+    10%{left: 0%;}
+
+
+    
+    20%{left: -30%;}
+    30%{left: -30%;}
+
+    40%{left: -70%;}
+    50%{left: -70%;}
+
+    60%{left: -40%;}
+    70%{left: -40%;}
+    90% {left: -5%;}
+
+
+    100%{left: 0%;}
+
+}
 
 
 
