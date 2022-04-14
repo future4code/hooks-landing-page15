@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -17,6 +21,7 @@ header {
     display: flex;
     align-items: center;
     font-size: 19px;
+    background-color: #ffffff;
 }
 header img {
     width: 150px;
@@ -223,7 +228,7 @@ header nav a#devsa:hover {
 /* Footer */
 footer {
     color: rgb(0, 0, 0);
-    background-color: rgb(218, 219, 218);  
+    background-color: rgb(221, 221, 221);  
 }
 
 #rodape {
@@ -264,6 +269,7 @@ div#nav-ft li{
 
 div#nav-ft li:hover{
     background-color: #ef233c;
+    transition: 0.5s;
 }
 
 div#nav-ft a {
