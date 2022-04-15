@@ -9,7 +9,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Noto Sans Display', sans-serif;  
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
 /* Header - Diogo */
@@ -18,14 +18,15 @@ header {
     align-items: center;
     font-size: 19px;
 }
+
 header img {
     width: 150px;
     margin-left: 30px;
 }
 
-header nav li{
+header nav li {
     display: inline;
-    margin-left: 50px;   
+    margin-left: 50px;
 }
 
 header nav a {
@@ -48,7 +49,7 @@ header nav li#devs a {
     color: white;
 }
 
-header nav li#devs:hover  {
+header nav li#devs:hover {
     background-color: #610a0a;
     transition: 0.3s;
 }
@@ -63,8 +64,8 @@ header nav a#devsa:hover {
     justify-content: end;
 }
 
-.conteudo-intro img{
-    width:  100%;
+.conteudo-intro img {
+    width: 100%;
 }
 
 /* Seção-1 ---> Walmir */
@@ -75,38 +76,44 @@ header nav a#devsa:hover {
     margin-top: 16%;
 }
 
-#sobreNos{
+/* sobre nós */
+
+#sobreNos {
 
     position: relative;
     width: 100%;
     height: 100%;
-    
+
     color: white;
 }
+
+/* backgroud */
 #sobreNos img {
 
     width: 100%;
-    height: 20%;
-    
+    height: 100%;
 }
 
+/* txt sobre nos */
 #sobreNos h2 {
 
     position: absolute;
     top: 20%;
     left: 35%;
-    
+
     font-size: 4em;
     text-shadow: 4px 5px 6px black;
-   
-    
+
+
 }
+
+/* caixa que envolve o h2 */
 
 .caixa-transparente {
 
     position: absolute;
     text-align: center;
-    
+
     background-color: rgba(0, 0, 0, 0.5);
     top: 40%;
     padding: 2%;
@@ -114,11 +121,13 @@ header nav a#devsa:hover {
 }
 
 .caixa-transparente p {
-    
+
     font-size: 2em;
     text-shadow: 2px 2px 2px black;
-    
+
 }
+
+/* area produtos */
 
 #produtos {
     width: 100%;
@@ -126,27 +135,31 @@ header nav a#devsa:hover {
 
     text-align: center;
 
-   
+
 }
 
 #produtos h2 {
     margin-bottom: 3%;
     font-size: 3em;
-    
+
 }
 
 #produtos p {
     font-size: 20px;
 }
 
-.frota-carrosel { 
+/* conteiner do carrosel */
+
+.frota-carrosel {
     width: 100%;
     margin: 0 auto;
     margin-top: 2%;
     overflow: hidden;
 
-    background: radial-gradient( white, black);
+    background: radial-gradient(white, black);
 }
+
+/* lista de carros */
 
 .frota-carrosel ul {
 
@@ -165,31 +178,91 @@ header nav a#devsa:hover {
     margin-left: 10vw;
 }
 
+/* animação do carrossel */
 
 @keyframes slide {
 
-    0%{left: 0%;}
-    10%{left: 0%;}
+    0% {
+        left: 0%;
+    }
+
+    10% {
+        left: 0%;
+    }
 
 
-    
-    20%{left: -30%;}
-    30%{left: -30%;}
 
-    40%{left: -70%;}
-    50%{left: -70%;}
+    20% {
+        left: -30%;
+    }
 
-    60%{left: -40%;}
-    70%{left: -40%;}
-    90% {left: -5%;}
+    30% {
+        left: -30%;
+    }
+
+    40% {
+        left: -70%;
+    }
+
+    50% {
+        left: -70%;
+    }
+
+    60% {
+        left: -40%;
+    }
+
+    70% {
+        left: -40%;
+    }
+
+    90% {
+        left: -5%;
+    }
 
 
-    100%{left: 0%;}
+    100% {
+        left: 0%;
+    }
 
 }
 
+.beneficios {
+    background-color: #ef233c;
+    /* só pra vizualização */
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.box-slides {
+    width: 100%;
 
+}
+
+.fotos {
+    width: 100%;
+    animation: animacao 16s ease-in-out infinite;
+}
+
+@keyframes animacao {
+
+    0%,100% {
+        background-image: url(./assets/1.png);
+    }
+
+    25% {
+        background-image: url(./assets/2.png);
+    }
+
+    50% {
+        background-image: url(./assets/3.png);
+    }
+ 
+    75% {
+        background-image: url(./assets/4.png);
+    }
+}
 
 
 
@@ -223,7 +296,7 @@ header nav a#devsa:hover {
 /* Footer */
 footer {
     color: rgb(0, 0, 0);
-    background-color: rgb(218, 219, 218);  
+    background-color: rgb(218, 219, 218);
 }
 
 #rodape {
@@ -248,10 +321,10 @@ div#nav-ft {
     padding: 30px;
 }
 
-div#nav-ft li{
+div#nav-ft li {
     display: inline;
     list-style-type: none;
-    padding: 10px; 
+    padding: 10px;
 }
 
 div#nav-ft a {
