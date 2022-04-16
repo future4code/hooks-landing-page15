@@ -22,6 +22,8 @@ header {
     align-items: center;
     font-size: 19px;
     background-color: #ffffff;
+    position: sticky;
+    top: 0;
 }
 
 header img {
