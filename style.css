@@ -24,6 +24,7 @@ header {
     background-color: #ffffff;
     position: sticky;
     top: 0;
+    
 }
 
 header img {
@@ -224,29 +225,56 @@ header nav a#devsa:hover {
     justify-content: space-between;
     padding: 5%;
 
+    background: linear-gradient(darkgray, white);
+
     border: solid;
 }
 
 .listas { 
     border: solid;
+    padding: 5%;
+    background: linear-gradient(black 20%, white);
+    color: white;
 }
 
 .listas ul {
 
     list-style: none;
+    margin-top: 20%;
+    
 }
+
+.franquias {
+    
+}
+
+.listas ul li {
+    margin: 2%;
+    padding: 2%;
+    border: solid;
+    border-radius: 15px;
+    background: radial-gradient(orange, darkorange);
+    color: black;
+
+    font-size: 2em;
+    font-weight: bold;    
+}
+
 
 .beneficios {
 
     margin-bottom: 10%;
     padding: 2%;
     text-align: center;
-    color: white;
+    color: black;
+    border: solid black;
 
 
-    background-color:darkgray;
+    background: linear-gradient(white, darkgray);
 
 }
+
+
 
 .beneficios ul {
 
@@ -257,6 +285,8 @@ header nav a#devsa:hover {
     list-style: none;
     align-items: center;
     justify-content: center;
+
+    margin-top: 10%;
 
 }
 
