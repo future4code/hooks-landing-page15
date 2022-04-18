@@ -312,6 +312,8 @@ header nav a#devsa:hover {
 /* Seção-2 - Miguel*/
 
 
+
+
 .img-familia {
     width: 100%;
     margin-top: 30px;
@@ -349,14 +351,14 @@ background-color: whitesmoke
 
 
 
-#texto-container h2 {
+.texto-container h2 {
 
     margin-bottom: 1%;
     font-size: 50px;
   
 }
 
-#texto-container p {
+.texto-container p {
 
     margin-bottom: 2%;
         font-size: 33px;
@@ -399,7 +401,7 @@ background-color: whitesmoke
 
               .flex-container p {
     
-                font-size: 30px;
+                font-size: 25px;
                 
                   }
     
@@ -455,6 +457,11 @@ margin-bottom: 20px;
     
     }
 
+    .container-flex p {
+    font-size: 25px;
+    
+    }
+
     
 .card6 h3 {
 font-size: 25px;
@@ -472,12 +479,40 @@ font-size: 25px;
     
     }
         
+/* 
+   ----- Responsivo---- */
     
-   
+    @media(max-width: 768px){
+        .flex-container{
+       flex-direction: column-reverse;
+      
+       
+        }
+
+        .container-flex {
+            flex-direction: column-reverse;
+            max-width: 768px
+            
+             }
+     
+     
+
+.container {
+
+  height: 100px;
+    background-color: #000000;
+    margin-bottom: 30px;
+}
 
 
+.container-vazio {
+    height: 100px;
+    background-color: #000000;
+    margin-bottom: 30px;
+}
 
 
+    }
 
 
 
