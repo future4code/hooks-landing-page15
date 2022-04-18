@@ -521,10 +521,7 @@ font-size: 25px;
 /* Footer - Diogo */
 footer {
     color: rgb(0, 0, 0);
-
-
     background-color: rgb(221, 221, 221);  
-
 }
 
 #rodape {
@@ -559,7 +556,6 @@ div#nav-ft li {
     display: inline;
     list-style-type: none;
     padding: 10px;
-
     background-color: #000000;
     border-radius: 20px; 
 }
@@ -672,12 +668,19 @@ footer h6 {
 
     .flex-container {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
         border-color: #ffffff;
+        text-align: center;
+        width: 80%;
     }
 
-    .card {
-        margin-left: -3px;
+    .card1 {
+        margin-left: 10px;
+    }
+
+    .card3 {
+        width: 100%;
+        margin-left: 40px;
     }
     
     .container-vazio {
@@ -697,7 +700,8 @@ footer h6 {
     .container-flex {
         flex-direction: column;
         border-color: #ffffff;
-        gap: 10px;  
+        gap: 10px;
+        text-align: center;  
     }
 
     div#nav-ft li {
