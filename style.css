@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+/* Header - Diogo */
+header {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    background-color: #ffffff;
+}
+
+header img {
+    width: 150px;
+    margin-left: 30px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    box-shadow: 0px 2px 0px #ef233c;
+    padding-bottom: 20px;
+}
+
+header nav li#devs {
+    background-color: #ef233c;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+header nav li#devs a {
+    color: white;
+}
+
+header nav li#devs:hover {
+    background-color: #610a0a;
+    transition: 0.3s;
+}
+
+header nav a#devsa:hover {
+    box-shadow: none;
+}
+
+.conteudo-intro {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.conteudo-intro img {
+    width: 100%;
+}
+
+/* Seção-1 ---> Walmir */
+
+.secao-1 {
+    width: 100%;
+    height: 50%;
+    margin-top: 16%;
+}
+
+/* sobre nós */
+
+#sobreNos {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+
+/* backgroud */
+#sobreNos img {
+
+    width: 100%;
+    height: 100%;
+}
+
+/* txt sobre nos */
+#sobreNos h2 {
+
+    position: absolute;
+    top: 20%;
+    left: 35%;
+
+    font-size: 4em;
+    text-shadow: 4px 5px 6px black;
+
+
+}
+
+/* caixa que envolve o h2 */
+
+.caixa-transparente {
+
+    position: absolute;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 40%;
+    padding: 2%;
+
+}
+
+.caixa-transparente p {
+
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+/* area produtos */
+
+#produtos {
+    width: 100%;
+    margin-top: 10%;
+
+    text-align: center;
+
+
+}
+
+#produtos h2 {
+    margin-bottom: 3%;
+    font-size: 3em;
+
+}
+
+#produtos p {
+    font-size: 20px;
+}
+
+/* conteiner do carrosel */
+
+.frota-carrosel {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+    overflow: hidden;
+
+    background: radial-gradient(white, black);
+}
+
+/* lista de carros */
+
+.frota-carrosel ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+.frota-carrosel li {
+    margin-top: 6%;
+    position: relative;
+    animation: slide 15s infinite ease-out;
+    margin-left: 10vw;
+}
+
+/* animação do carrossel */
+
+@keyframes slide {
+
+    0% { left: 0%;}
+
+    10% {left: 0%;}
+
+
+
+    20% {left: -30%;}
+
+    30% {left: -30%;}
+
+    40% {left: -70%;}
+
+    50% {left: -70%;}
+
+    60% {left: -40%;}
+
+    70% { left: -40%;}
+
+    90% {left: -5%;}
+
+
+    100% {left: 0%;}
+}
+
+.titulo-planos {
+    margin: 5%;
+    font-size: 90px;
+}
+
+.planos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+
+    background: linear-gradient(darkgray, white);
+
+    border: solid;
+}
+
+.listas { 
+    border: solid;
+    padding: 5%;
+    background: linear-gradient(black 20%, white);
+    color: white;
+}
+
+.listas ul {
+
+    list-style: none;
+    margin-top: 20%;
+    
+}
+
+.franquias {
+    
+}
+
+.listas ul li {
+    margin: 2%;
+    padding: 2%;
+    border: solid;
+    border-radius: 15px;
+    background: radial-gradient(orange, darkorange);
+    color: black;
+
+    font-size: 2em;
+    font-weight: bold;    
+}
+
+
+.beneficios {
+
+    margin-bottom: 10%;
+    padding: 2%;
+    text-align: center;
+    color: black;
+    border: solid black;
+
+
+    background: linear-gradient(white, darkgray);
+
+}
+
+
+
+.beneficios ul {
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10%;
+
+}
+
+.beneficios li img {
+
+    width: 90%;
+    border-radius: 15px;
+
+    box-shadow: 5px 3px 4px black;
+}
+
+.beneficios li img:hover {
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Seção-2 - Miguel*/
+
+
+
+
+.img-familia {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+    }
+    
+    .conteiner-banner {
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin-top: 10%;
+    
+    }
+    
+    .conteiner-banner h2 {
+        margin-bottom: 2%;
+        font-size: 43px;
+  
+    }
+    
+    .conteiner-banner p  {
+        font-size: 30px;
+    }
+
+
+.container {
+    display: flex;
+height: 300px ;
+width: 100%;
+margin-top: 4px;
+background-color: whitesmoke
+
+}
+
+
+
+.texto-container h2 {
+
+    margin-bottom: 1%;
+    font-size: 50px;
+  
+}
+
+.texto-container p {
+
+    margin-bottom: 2%;
+        font-size: 33px;
+  
+}
+
+
+    .flex-container{
+        margin: 10px;
+        padding: 20px;
+        max-width: 100% ;
+        display: flex;
+        justify-content: space-between;  
+        align-items: center;
+        text-align: start;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+    
+      .flex-container img {
+    
+    width: 85%;
+   
+    
+      }
+
+      
+
+      .flex-container h3 {
+    
+        font-size: 25px;
+        
+          }
+
+          .flex-container h2 {
+    
+            font-size: 35px;
+            
+              }
+
+              .flex-container p {
+    
+                font-size: 25px;
+                
+                  }
+    
+
+    .card1  {
+   
+        margin-left: 40px;
+    }
+
+    .foto2  {
+   margin-top: 12px;
+       
+    }
+    
+    .card3  {
+   
+        margin-right: 40px;
+    }
+
+
+   .card2 p {
+
+margin-bottom: 20px;
+
+
+   }
+    
+    
+    
+    .container-vazio {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 2%;
+    }
+    
+    .container-flex{
+        margin: 10px;
+        padding: 20px;
+        max-width: 100% ;
+        display: flex;
+        justify-content: space-between;  
+        align-items: center;
+        text-align: start;
+        margin-left: 4%;
+    
+        }
+    
+    .container-flex img {
+    
+        width: 85%;
+    
+    }
+
+    .container-flex p {
+    font-size: 25px;
+    
+    }
+
+    
+.card6 h3 {
+font-size: 25px;
+
+}
+
+.card6  {
+   margin-bottom: 39px;
+   
+    }
+    
+
+.card5 h3 {
+    font-size: 25px;
+    
+    }
+        
+/* 
+   ----- Responsivo---- */
+    
+    @media(max-width: 768px){
+        .flex-container{
+       flex-direction: column-reverse;
+      
+       
+        }
+
+        .container-flex {
+            flex-direction: column-reverse;
+            max-width: 768px
+            
+             }
+     
+     
+
+.container {
+
+  height: 100px;
+    background-color: #000000;
+    margin-bottom: 30px;
+}
+
+
+.container-vazio {
+    height: 100px;
+    background-color: #000000;
+    margin-bottom: 30px;
+}
+
+
+    }
+
+
+
+
+
+/* Footer - Diogo */
+footer {
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 221, 221);  
+}
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 25px;
+}
+
+footer div img:hover{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    transition: 0.5s;  
+}
+
+footer .icone {
+    width: 35px;
+}
+
+div#nav-ft {
+    padding: 30px;
+}
+
+div#nav-ft li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 20px; 
+}
+
+div#nav-ft li:hover{
+    background-color: #ef233c;
+    transition: 0.5s;
+
+}
+
+div#nav-ft a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    padding: 5px;
+}
+
+footer h6 {
+    font-weight: 300;
+    font-family:  Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+/* Responsividade Mobile - Diogo*/
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    header {
+        flex-direction:column;
+        font-size: 15px;
+    }
+
+    header nav li {
+        display: inline-block;
+        padding-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    header nav li#devs {
+        background-color: #ffff;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    
+    header nav a:hover {
+        box-shadow: 0px 0px 0px #ffffff; 
+    }
+
+    header nav li#devs a {
+        color: red;
+    }
+    
+    header nav li#devs:hover {
+        background-color: #ffffff;
+    }
+    
+    .conteudo-intro img {
+        margin-top: 20px;
+    }
+
+    #sobreNos h2 {
+        font-size: 30px;
+        margin-top: -20px;
+        margin-left: -15px;
+    }
+
+    .caixa-transparente p {
+        font-size: 13px;
+        margin-top: 5px;
+        text-align: justify;
+    }
+
+    #produtos h2 {
+        font-size: 30px;
+    }
+
+    #produtos p {
+        font-size: 15px;
+    }
+
+    .frota-carrosel {
+        width: 100%;
+    }
+
+    .titulo-planos {
+        font-size: 35px;
+    }
+
+    .beneficios ul {
+        display: block;
+    }
+
+    .conteiner-banner h2 {
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 25px;
+    }
+
+    .conteiner-banner div p {
+        font-size: 13px;
+    }
+
+    .conteiner-banner div img {
+        height: 100%;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        gap: 30px;
+        border-color: #ffffff;
+        text-align: center;
+        width: 80%;
+    }
+
+    .card1 {
+        margin-left: 10px;
+    }
+
+    .card3 {
+        width: 100%;
+        margin-left: 40px;
+    }
+    
+    .container-vazio {
+        display: none;
+    }
+
+    #time h2{
+        font-size: 30px;
+        background-color: #000000;
+        color: #ffff;
+    }
+
+    #time p {
+        font-size: 15px;
+    }
+
+    .container-flex {
+        flex-direction: column;
+        border-color: #ffffff;
+        gap: 10px;
+        text-align: center;  
+    }
+
+    div#nav-ft li {
+        font-size: 13px;
+    }
+}
